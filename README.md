@@ -1,59 +1,48 @@
-EconomyCards - A console-based RogueLike corporate simulation game
-
+EconomyCards - A Console-Based RogueLike Corporate Simulation Game
 What is it?
-EconomyCards will be a RogueLike card game in the likes of "Reigns" by Nerial.
-However your goal is to keep your business financially sustainable for as long as you can.
-Keep the money flowing and expand branches to become the most successful business in the world!
+EconomyCards is a RogueLike card game inspired by "Reigns" by Nerial. Your goal is to keep your business financially sustainable for as long as possible. Keep the money flowing and expand branches to become the most successful business in the world!
 
-- Manage your income and expenditure as a mana-based system
-- Conquer new Markets to maximize profits in a dynamic economy system based on a stock-market
-- Leave your mark with a highscore system ingame
+Key Features:
+Manage your income and expenditure as a mana-based system.
+Conquer new markets to maximize profits in a dynamic economy system based on a stock-market.
+Leave your mark with an in-game highscore system.
+Installation
+This will be executable C++ code. Instructions for building and running the game will be provided in the future.
 
-What is this mess of a code?
-idk im trying
+Development Status
+Will it be finished? Not sure, this is my first attempt at a game. Recent developments? No.
 
-installation?
-this will be executable c++ code ig
+Gameplay
+You will probably only control the gameplay through text-based inputs. Use console commands to select/play cards, navigate the menu, and communicate with the game.
 
-Will it be finished?
-idk this is my first attempt at a game
+Planned Features
+Cards
+Evolving card deck containing cards with various impacts:
 
-Gameplay?
-You will probably only control the gameplay text-based.
-You will use console input to select/play cards, navigate the menu and communicate wthi the game in general.
+Small impact: Buffs to investment (passive), gamble a share in a different market (active).
+Medium impact: Buying new machinery for your factories, layoffs, marketing.
+High impact: Assassinating politicians, mass layoffs, migrating to other countries.
+Cards will help you achieve different goals, such as:
 
-Planned features:
-oh boy finally
+Getting a second life by migrating to a country with low wages.
+Accelerating to the late game by migrating to a tax haven.
+Cards will be given out randomly and will cost money.
 
-CARDS
-- evolving card deck containing cards:
-	- small impact, like buffs to investment(passive), gamble a share in a different market(active) 
-	- medium impact, like buying new machinery for your factories, layoffs, marketing
-	- high impact, like assassinating politicians, mass layoffs, migrate countries
-- cards will attain different goals, you could get like a second life migrating to a country with low wages or accelerate to lategame migrating to a tax haven 
-- cards wil be given out randomly 
-- cards will cost MONEY
+Money
+Money will be realized as a reflection of income/expenditures, functioning as a classic mana system for card games.
+Money will be gained through your workers' and your own efforts, passively through investments, and probably directly through played cards.
+Don't go broke.
+Miscellaneous
+Simulated stock market to base your decisions on.
+Immersive vibes and world-building.
+Highscore system with in-game honors.
+Contributions
+Yes, please! I will decide about any changes on my own, though.
 
-MONEY
-- money will be realised as a realisation of income/expenditures, in gameplay it will be classic mana system for card games
-- money will be gained through your wagies' and your own hard work (lmao), passively thorugh investments and probably directly through played cards
-- dont go broke 
+Known Bugs
+Of course not. (But seriously, if you find any, let me know!)
 
-MISC
-- simulated stock market you maybe should base your decisions off ;)
-- vibes and world building
-- highscore sytem with highscore being honored in game
-- i hope to get new ideas on the way and am open to suggestions but dont expect me sharing CAKE >:(
+Authors
+Me :)
 
-Recent developements?
-n o 
 
-known bugs? 
-ofc not
-
-contributions?
-yes, please
-i will decide about any changes on my own tho
-
-Authors?
-me :)
