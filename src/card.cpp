@@ -23,4 +23,8 @@ Type Card::get_type() const {
     return type;
 }
 
+bool Card::operator==(const Card& other) const {
+    return name == other.name && cost == other.cost && message == other.message && type.name == other.type.name && type.message == other.type.message;
+}
+
 }

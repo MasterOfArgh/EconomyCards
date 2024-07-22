@@ -32,6 +32,8 @@ public:
     /** @brief gets type */
     Type get_type() const;
 
+    bool operator==(const Card& other) const;
+
 private:
     std::string name;
     
