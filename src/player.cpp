@@ -5,7 +5,11 @@
 
 namespace Game {
 
-    Player::Player() {}
+    Player::Player(const std::string& name) : name(name) {}
+
+    std::string Player::get_name() const {
+        return name;
+    }
 
     Hand Player::get_hand() const {
         return hand;

@@ -32,7 +32,9 @@ struct Resources {
 
 class Player {
 public:
-    Player();
+    Player(const std::string& name);
+
+    std::string get_name() const;
 
     Hand get_hand() const;
 
@@ -52,6 +54,7 @@ public:
 
     int set_expenses(int amount);
 private:
+    std::string name;
     Hand hand;
     Resources resources;
     Effects effects;
